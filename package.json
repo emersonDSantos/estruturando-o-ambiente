@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "npm": "^10.2.5"
+  },
+  "name": "estruturando-o-ambiente",
+  "version": "0.0.1",
+  "description": "Um repositório de introdução à Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "author": "Emerson Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
