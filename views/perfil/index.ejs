@@ -17,16 +17,17 @@
         font-family:arial;
         color:antiquewhite;
       }
+      li { list-style: none; }
     </style>
   </head>
   <body>
     <h1>Rota raiz de perfil!</h1>
     <div>
-        <p>
-            Olá!<br/>
-            Meu nome é <%= profileName %> e tenho <%= age %> anos.<br/>
-            É um prazer conhece-lo.
-        </p>
+      <ul>
+        <% perfil.map((perfil) => { %>
+            <li><b>Nome </b><%= perfil.nome %>, <b>Idade </b><%= perfil.idade %></li>
+        <% }); %>
+    </ul>
     </div>
   </body>
 </html>

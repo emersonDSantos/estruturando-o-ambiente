@@ -1,3 +1,3 @@
 # estruturando-o-ambiente
-Neste exercício, eu fiz as minhas duas primeiras rotas http://localhost:3000/perfil, e http://localhost:3000/pedido
-e já estou commitando no GitHub
+Adicionei uma collection no MongoDb chamado "perfil", com as propriedades "nome: Emerson Durães Santos" e "idade: 32"
+Exibi o resultado na rota "./perfil"
